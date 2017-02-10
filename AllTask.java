@@ -10,7 +10,7 @@ public class AllTask {
 		
 		// #3 isSeqIncr(new double[]{0d, 1d, 0d, 3d, 4d, 5d, 6d});
 		
-		createArrFromEvenSeq(new int[]{0, 1, 2, 3, 6, 8, 10});
+		// #4 createArrFromEvenSeq(new int[]{0, 1, 2, 3, 6, 8, 10});
 		
 		// #5 prepareSqrMatrix(5);
 		
