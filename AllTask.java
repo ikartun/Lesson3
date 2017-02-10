@@ -111,17 +111,14 @@ public class AllTask {
 					jarray[j - 1] = j;
 					System.out.print(j + " ");
 				}
-				matrix[i] = jarray;
-				jarray = new int[n];
 			}
 			else {
 				for (int j = n; j >= 1; j--) {
 					jarray[n - j] = j;
 					System.out.print(j + " ");				
 				}
-				matrix[i] = jarray;
-				jarray = new int[n];
 			}
+			matrix[i] = jarray;
 			System.out.println();
 		}		
 	}
@@ -138,8 +135,6 @@ public class AllTask {
 					jarray[j] = 1;
 					System.out.print(jarray[j] + " ");
 				}
-				matrix[i] = jarray;
-				jarray = new int[n];
 			}
 			else {
 				for (int j = 0; j < n; j++) {
@@ -151,9 +146,8 @@ public class AllTask {
 					}
 					System.out.print(jarray[j] + " ");				
 				}
-				matrix[i] = jarray;
-				jarray = new int[n];
 			}
+			matrix[i] = jarray;
 			System.out.println();
 		}		
 	}
