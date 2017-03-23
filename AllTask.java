@@ -3,7 +3,7 @@ package by.epam.tr.lesson3;
 import java.util.Random;
 
 public class AllTask {
-	public static void main(String[] args) {
+	public static void main(String[] args) {// коммитить тоже лучше с пакетами
 		// #1 getSumArr(10, 3);
 		
 		// #2 createArrFromSeq(new int[]{0, 1, 2, 3, 0, 0, 10});
@@ -18,7 +18,7 @@ public class AllTask {
 	}
 	
 	//#1 task
-	public static void getSumArr(int n, int k) {
+	public static void getSumArr(int n, int k) {// логику и вывод результатов лучше разделять
 		int[] arr = new int[n];
 		Random random = new Random();
 		int sum = 0;
